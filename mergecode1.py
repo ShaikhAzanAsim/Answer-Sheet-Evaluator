@@ -10,7 +10,7 @@ import docx
 class PDFAssessmentTool:
     def __init__(self, model_name="llama-3.2-90b-vision-preview"):
         self.model_name = model_name
-        self.client = Groq(api_key="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")
+        self.client = Groq(api_key="hehehaha")
 
     def encode_image(self, image_path):
         """Encode image to base64"""
